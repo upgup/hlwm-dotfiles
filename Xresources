@@ -42,7 +42,7 @@ URxvt*font: xft:Roboto Mono:style=Regular:size=10
 URxvt*boldFont: xft:Roboto Mono:style=Bold:size=10
 URxvt*italicFont: xft:Roboto Mono:style=Italic:size=10
 URxvt*boldItalicFont: xft:Roboto Mono:style=Bold Italic:size=10
-URxvt*letterSpace: 0
+URxvt*letterSpace: -1
 URxvt*lineSpace: 0
 URxvt*geometry: 80x24
 URxvt*internalBorder: 4
