@@ -1,0 +1,62 @@
+!! Xft Settings
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.hintstyle: hintslight
+
+!! Common Appearance
+*foreground:  #eeeeec
+*cursorColor: #ff5555
+*cursorBlink: true
+
+*color0:  #000000
+*color1:  #cc0000
+*color2:  #4e9a06
+*color3:  #c4a000
+*color4:  #3465a4
+*color5:  #75507b
+*color6:  #06989a
+*color7:  #d3d7cf
+*color8:  #555753
+*color9:  #ef2929
+*color10: #8ae234
+*color11: #fce94f
+*color12: #739fcf
+*color13: #ad7fa8
+*color14: #34e2e2
+*color15: #eeeeec
+
+*scrollBar: false
+
+!! Xterm Appearance
+xterm*termName: xterm-256color
+xterm*background:  #262626
+xterm*faceName: 'Roboto Mono'
+xterm*faceSize: 10
+
+!! URxvt Appearance
+URxvt*termName: rxvt-unicode-256color
+URxvt*background: [92]#262626
+URxvt*font: xft:Roboto Mono:style=Regular:size=10
+URxvt*boldFont: xft:Roboto Mono:style=Bold:size=10
+URxvt*italicFont: xft:Roboto Mono:style=Italic:size=10
+URxvt*boldItalicFont: xft:Roboto Mono:style=Bold Italic:size=10
+URxvt*letterSpace: 0
+URxvt*lineSpace: 0
+URxvt*geometry: 80x24
+URxvt*internalBorder: 4
+URxvt*cursorBlink: true
+URxvt*cursorUnderline: false
+URxvt*depth: 32
+
+!! URxvt Behavior
+URxvt*saveline: 2048
+URxvt*urgentOnBell: true
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*secondaryScreen: 1
+URxvt*secondaryScroll: 1
+URxvt*iso14755: false
+URxvt.iso14755_52: false

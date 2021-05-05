@@ -13,7 +13,7 @@ hc emit_hook reload
 feh --bg-scale $HOME/Pictures/parachute.jpeg
 
 # use picom for transparency
-picom -f --vsync opengl-swc --backend glx &
+picom --fading --backend glx --vsync --xrender-sync-fence &
 
 # use nm-applet for network
 nm-applet &
